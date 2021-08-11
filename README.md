@@ -4,7 +4,7 @@
 
 | day | topic                                         | web                                                                               |
 | --- | :-------------------------------------------- | --------------------------------------------------------------------------------- |
-| 1   | JS Drum Kit                                   | [demo](https://afa0304.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/index.html)                                                                                 |
+| 1   | JS Drum Kit                                   | [demo](https://afa0304.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/)                                                                                 |
 | 2   | JS + CSS Clock                                | -                                                                                 |
 | 3   | CSS Variables and JS                          | -                                                                                 |
 | 4   | Array Cardio Day 1                            | -                                                                                 |
