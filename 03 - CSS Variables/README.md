@@ -1,5 +1,5 @@
 # Day03 CSS Variables
 
 ## Note
-* addEventListener("mousemove") §ì¨úinput range§Y®ÉÅÜ¤Æ
-* document.documentElement.style.setProperty¥Îªk
+* addEventListener("mousemove") æŠ“å–input rangeå³æ™‚è®ŠåŒ–
+* document.documentElement.style.setPropertyç”¨æ³•
