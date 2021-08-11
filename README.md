@@ -6,7 +6,7 @@
 | --- | :-------------------------------------------- | --------------------------------------------------------------------------------- |
 | 1   | JS Drum Kit                                   | -                                                                             |
 | 2   | JS + CSS Clock                                | [demo](https://afa0304.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/)                                                                                   |
-| 3   | CSS Variables and JS                          | -                                                                                 |
+| 3   | CSS Variables and JS                          | [demo](https://afa0304.github.io/js30/03%20-%20CSS%20Variables/)                                                                                 |
 | 4   | Array Cardio Day 1                            | -                                                                                 |
 | 5   | Flex Panels Image Gallery                     | -                                                                                 |
 | 6   | Ajax Type Ahead                               | -                                                                                 |
