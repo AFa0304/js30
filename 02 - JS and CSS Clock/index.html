@@ -68,9 +68,9 @@
             var hour = now.getHours() > 12 ? now.getHours() - 12 : now.getHours()
             var min = now.getMinutes()
             var sec = now.getSeconds()
-            document.getElementsByClassName("hour-hand")[0].style.transform = `rotateZ(${hour * 30 + min * 0.5 + 90}deg)`
-            document.getElementsByClassName("min-hand")[0].style.transform = `rotateZ(${min * 6 + sec * 0.1 + 90}deg)`
-            document.getElementsByClassName("second-hand")[0].style.transform = `rotateZ(${sec * 6 + 90}deg)`
+            document.querySelector(".hour-hand").style.transform = `rotateZ(${hour * 30 + min * 0.5 + 90}deg)`
+            document.querySelector(".min-hand").style.transform = `rotateZ(${min * 6 + sec * 0.1 + 90}deg)`
+            document.querySelector(".second-hand").style.transform = `rotateZ(${sec * 6 + 90}deg)`
         }
 
         setClock()
