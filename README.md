@@ -10,7 +10,7 @@
 | 4   | Array Cardio Day 1                            | [demo](https://afa0304.github.io/js30/04%20-%20Array%20Cardio%20Day%201/)                                                                                   |
 | 5   | Flex Panels Image Gallery                     | [demo](https://afa0304.github.io/js30/05%20-%20Flex%20Panel%20Gallery)                                                                                 |
 | 6   | Ajax Type Ahead                               | [demo](https://afa0304.github.io/js30/06%20-%20Type%20Ahead)                                                                                 |
-| 7   | Array Cardio Day 2                            | -                                                                                 |
+| 7   | Array Cardio Day 2                            | [demo](https://afa0304.github.io/js30/07%20-%20Array%20Cardio%20Day%202)                                                                                 |
 | 8   | Fun with HTML5 Canvas                         | -                                                                                 |
 | 9   | 14 Must Know Dev Tools Tricks                 | -                                                                                 |
 | 10  | Hold Shift to Check Multiple Checkboxes       | -                                                                                 |
