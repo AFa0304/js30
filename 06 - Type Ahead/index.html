@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Type Ahead 👀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="search-form">
+        <input type="text" class="search" placeholder="City or State">
+
+        <ul class="suggestions">
+            <li>Filter for a city</li>
+            <li>or a state</li>
+        </ul>
+    </form>
+    <script>
+        const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
+        let cities = []
+        fetch(endpoint).then(res => {
+            res.json().then(datas => { cities = cities.concat(datas) })
+        })
+
+        function searchCities() {
+            const searchStr = document.querySelector(".search").value
+            const result = cities.filter(city => {
+                return city.city.toLowerCase().indexOf(searchStr.toLowerCase()) != -1 || city.state.toLowerCase().indexOf(searchStr.toLowerCase()) != -1
+            })
+            displayList(result, searchStr)
+        }
+
+        function displayList(list, searchStr) {
+            function formatePopulation(x) {
+                return x.toString().replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+            }
+            let layout = ''
+            list.forEach(city => {
+                const regex = new RegExp(`${searchStr}`,"i")
+                const display_city = city.city.replace(regex, `<span class="hl">${searchStr}</span>`)
+                const display_state = city.state.replace(regex, `<span class="hl">${searchStr}</span>`)
+                layout += `
+                <li>
+                    <span class="name">${display_city}, ${display_state}</span>
+                    <span class="population">${formatePopulation(city.population)}</span>
+                </li>
+                `
+            })
+            document.querySelector(".suggestions").innerHTML = layout
+        }
+
+        document.querySelector(".search").addEventListener("keyup", function () {
+            searchCities()
+        })
+    </script>
+</body>
+</html>
