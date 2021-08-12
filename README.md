@@ -8,7 +8,7 @@
 | 2   | JS + CSS Clock                                | [demo](https://afa0304.github.io/js30/02%20-%20JS%20and%20CSS%20Clock/)                                                                                   |
 | 3   | CSS Variables and JS                          | [demo](https://afa0304.github.io/js30/03%20-%20CSS%20Variables/)                                                                                 |
 | 4   | Array Cardio Day 1                            | [demo](https://afa0304.github.io/js30/04%20-%20Array%20Cardio%20Day%201/)                                                                                   |
-| 5   | Flex Panels Image Gallery                     | -                                                                                 |
+| 5   | Flex Panels Image Gallery                     | [demo](https://afa0304.github.io/js30/05%20-%20Flex%20Panel%20Gallery)                                                                                 |
 | 6   | Ajax Type Ahead                               | -                                                                                 |
 | 7   | Array Cardio Day 2                            | -                                                                                 |
 | 8   | Fun with HTML5 Canvas                         | -                                                                                 |
