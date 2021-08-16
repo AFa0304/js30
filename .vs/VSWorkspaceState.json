@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\01 - JavaScript Drum Kit\\sounds",
-    "\\04 - Array Cardio Day 1"
+    "\\03 - CSS Variables",
+    "\\04 - Array Cardio Day 1",
+    "\\05 - Flex Panel Gallery",
+    "\\06 - Type Ahead",
+    "\\07 - Array Cardio Day 2",
+    "\\08 - Fun with HTML5 Canvas"
   ],
-  "SelectedNode": "\\04 - Array Cardio Day 1\\index-FINISHED.html",
+  "SelectedNode": "\\08 - Fun with HTML5 Canvas\\index-FINISHED.html",
   "PreviewInSolutionExplorer": false
 }

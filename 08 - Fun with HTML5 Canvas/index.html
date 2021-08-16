@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Canvas</title>
+</head>
+<body>
+    <canvas id="draw" width="800" height="800"></canvas>
+    <script>
+        const canvas = document.querySelector('#draw');
+        const ctx = canvas.getContext('2d');
+        // 設定canvas大小
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        ctx.lineCap = "round" // 線條結尾樣式 {butt:"方形",round:"圓形",square:"寬同線條寬度、高線條寬度一半的的方塊於線條端點"}
+        ctx.lineJoin = "round" // 線條間接合處樣式 {round:"圓弧",bevel:"斜面型",miter:"斜交型"}
+        ctx.lineWidth = 20
+
+        let isDrawing = false
+        let lastX = 0
+        let lastY = 0
+        let hue = 0 //色彩
+        let direction = true
+
+        function draw(e) {
+            if (!isDrawing) return
+            ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+            ctx.beginPath()
+            ctx.moveTo(lastX, lastY); //起始點
+            ctx.lineTo(e.offsetX, e.offsetY);
+            ctx.stroke();
+            [lastX, lastY] = [e.offsetX, e.offsetY]; //更新
+
+            //顏色更新
+            hue++;
+            if (hue >= 360) { hue = 0 }
+
+            // 使用direction控制線條粗細
+            if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+                direction = !direction;
+            }
+            if (direction) {
+                ctx.lineWidth++
+            } else {
+                ctx.lineWidth--
+            }
+
+        }
+
+        canvas.addEventListener('mousedown', (e) => {
+            isDrawing = true;
+            [lastX, lastY] = [e.offsetX, e.offsetY]; //記錄鼠標地方
+        });
+
+        canvas.addEventListener('mouseup', () => isDrawing = false)
+        canvas.addEventListener('mouseout', () => isDrawing = false) //超出螢幕
+        canvas.addEventListener('mousemove', draw)
+    </script>
+
+    <style>
+        html, body {
+            margin: 0;
+        }
+    </style>
+
+</body>
+</html>
