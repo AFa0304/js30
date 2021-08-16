@@ -69,11 +69,11 @@
         console.count('V');
 
         // timing
-        console.time('取得資料');
+        console.time('取得資料共花了');
         fetch('https://api.github.com/users/wesbos')
             .then(data => data.json())
             .then(data => {
-                console.timeEnd('取得資料');
+                console.timeEnd('取得資料共花了');
                 console.log(data);
             });
 
