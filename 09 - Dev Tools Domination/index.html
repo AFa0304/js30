@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Console Tricks!</title>
+</head>
+<body>
+
+    <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+    <script>
+        const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+        function makeGreen() {
+            const p = document.querySelector('p');
+            p.style.color = '#BADA55';
+            p.style.fontSize = '50px';
+        }
+
+        // Regular
+        console.log("Hello! I'm Fa")
+
+        // Interpolated
+        console.log("Nothing %s nothing %s.", "venture", "have")
+
+        // Styled
+        console.log('%c 我是一個有樣式的文字', 'font-size:20px; font-weight:bold;text-shadow:0.1em 0.1em 0.05em #008513')
+
+        // warning!
+        console.warn("你到底知不知道 你要什麼")
+
+        // Error :|
+        console.error("現在我都說不定了 只能消積地緊緊的抱住你")
+
+        // Info
+        console.info("想把你留在這裡")
+
+        // Testing
+        const p = document.querySelector('p');
+        console.assert(p.classList.contains('nice'), '找不到有class="nice"的p標籤');
+
+        // clearing
+        console.clear()
+
+        // Viewing DOM Elements
+        console.log(p)
+        console.dir(p);
+
+        // Grouping together
+        dogs.forEach(dog => {
+            console.groupCollapsed(`${dog.name}`);
+            console.log(`哈囉 這隻狗狗叫 ${dog.name}`);
+            console.log(`${dog.name} 已經 ${dog.age} 歲囉`);
+            console.groupEnd(`${dog.name}`);
+        });
+
+        // counting
+        console.count('V');
+        console.count('Fa');
+        console.count('V');
+        console.count('V');
+        console.count('Fa');
+        console.count('V');
+        console.count('Fa');
+        console.count('V');
+        console.count('V');
+        console.count('V');
+        console.count('V');
+        console.count('V');
+
+        // timing
+        console.time('取得資料');
+        fetch('https://api.github.com/users/wesbos')
+            .then(data => data.json())
+            .then(data => {
+                console.timeEnd('取得資料');
+                console.log(data);
+            });
+
+        console.table(dogs);
+    </script>
+</body>
+</html>
