@@ -13,7 +13,7 @@
 | 7   | Array Cardio Day 2                            | [demo](https://afa0304.github.io/js30/07%20-%20Array%20Cardio%20Day%202/)                                                                                 |
 | 8   | Fun with HTML5 Canvas                         | [demo](https://afa0304.github.io/js30/08%20-%20Fun%20with%20HTML5%20Canvas/)                                                                                 |
 | 9   | 14 Must Know Dev Tools Tricks                 | [demo](https://afa0304.github.io/js30/09%20-%20Dev%20Tools%20Domination/)                                                                                 |
-| 10  | Hold Shift to Check Multiple Checkboxes       | -                                                                                 |
+| 10  | Hold Shift to Check Multiple Checkboxes       | [demo](https://afa0304.github.io/js30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)                                                                                 |
 | 11  | Custom Video Player                           | -                                                                                 |
 | 12  | Key Sequence Detection (KONAMI CODE)          | -                                                                                 |
 | 13  | Slide In on Scroll                            | -                                                                                 |
