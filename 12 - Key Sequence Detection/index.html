@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Key Detection</title>
+    <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+    <script>
+        let key_ary = []
+        let password = "popcat"
+        window.addEventListener("keyup", (e) => {
+            key_ary.length >= 6 && key_ary.shift()
+            key_ary.push(e.key)
+            console.log(key_ary)
+            if (key_ary.join("") === password) {
+                console.log("ok")
+                cornify_add()
+            }
+        })
+    </script>
+</body>
+</html>
