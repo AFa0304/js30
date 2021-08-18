@@ -17,7 +17,7 @@
 | 11  | Custom Video Player                           | [demo](https://afa0304.github.io/js30/11%20-%20Custom%20Video%20Player)                                                                                 |
 | 12  | Key Sequence Detection (KONAMI CODE)          | [demo](https://afa0304.github.io/js30/12%20-%20Key%20Sequence%20Detection)                                                                                 |
 | 13  | Slide In on Scroll                            | [demo](https://afa0304.github.io/js30/13%20-%20Slide%20in%20on%20Scroll)                                                                                 |
-| 14  | Object and Arrays - Reference VS Copy         | -                                                                                 |
+| 14  | Object and Arrays - Reference VS Copy         | [demo](https://afa0304.github.io/js30/14%20-%20JavaScript%20References%20VS%20Copying)                                                                                 |
 | 15  | LocalStorage and Event Delegation             | -                                                                                 |
 | 16  | CSS Text Shadow Mouse Move Effect             | -                                                                                 |
 | 17  | Sorting Band Names without articles           | -                                                                                 |
