@@ -18,7 +18,7 @@
 | 12  | Key Sequence Detection (KONAMI CODE)          | [demo](https://afa0304.github.io/js30/12%20-%20Key%20Sequence%20Detection)                                                                                 |
 | 13  | Slide In on Scroll                            | [demo](https://afa0304.github.io/js30/13%20-%20Slide%20in%20on%20Scroll)                                                                                 |
 | 14  | Object and Arrays - Reference VS Copy         | [demo](https://afa0304.github.io/js30/14%20-%20JavaScript%20References%20VS%20Copying)                                                                                 |
-| 15  | LocalStorage and Event Delegation             | -                                                                                 |
+| 15  | LocalStorage and Event Delegation             | [demo](https://afa0304.github.io/js30/15%20-%20LocalStorage)                                                                                 |
 | 16  | CSS Text Shadow Mouse Move Effect             | -                                                                                 |
 | 17  | Sorting Band Names without articles           | -                                                                                 |
 | 18  | Tally String Times with Reduce                | -                                                                                 |
