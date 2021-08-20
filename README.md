@@ -21,7 +21,7 @@
 | 15  | LocalStorage and Event Delegation             | [demo](https://afa0304.github.io/js30/15%20-%20LocalStorage)                                                                                 |
 | 16  | CSS Text Shadow Mouse Move Effect             | [demo](https://afa0304.github.io/js30/16%20-%20Mouse%20Move%20Shadow)                                                                                 |
 | 17  | Sorting Band Names without articles           | [demo](https://afa0304.github.io/js30/17%20-%20Sort%20Without%20Articles)                                                                                 |
-| 18  | Tally String Times with Reduce                | -                                                                                 |
+| 18  | Tally String Times with Reduce                | [demo](https://afa0304.github.io/js30/18%20-%20Adding%20Up%20Times%20with%20Reduce)                                                                                 |
 | 19  | Unreal Webcam Fun                             | -                                                                                 |
 | 20  | Native Speech Recognition                     | -                                                                                 |
 | 21  | Geolocation based Speedometer and Compass     | -                                                                                 |
